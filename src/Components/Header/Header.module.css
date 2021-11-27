@@ -1,0 +1,38 @@
+.app__header {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 0 50px 0 0;
+    border-bottom: 4px solid;
+    background-color: #a7b7be;
+}
+
+.header__buttons {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    column-gap: 5%;
+    padding: 10px;
+}
+
+.header__add__btn, .header__reset__btn {
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.75rem;
+    padding: 30px;
+    background-color: #cfd8dc;
+    cursor: pointer;
+    color: #425a65;
+    border: none;
+}
+
+.header__score {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.amount__counters, .sum__score {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

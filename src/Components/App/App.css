@@ -1,0 +1,40 @@
+/*   color variables */
+.minus {background-color: #ff1744;}
+.plus {background-color: #2abf77;}
+.gray100 {background-color: #f0f7f8;}
+.gray200 {background-color: #cfd8dc;}
+.gray300 {background-color: #a7b7be;}
+.gray400 {background-color: #6b7e86;}
+.gray500 {background-color: #425a65;}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f7f8;
+}
+
+.app {
+  display: grid;
+  grid-template: 1fr 6fr / 1fr;
+  font-family: Montserrat, sans-serif;
+  height: 100vh;
+  color: #425a65;
+}
+
+button:hover {
+   background-color: #f0f7f8;
+ }
+
+button:active {
+   transform: scale(0.9);
+ }
+
+button:focus {
+  box-shadow: 0 0 0 3px #425a65;
+}
