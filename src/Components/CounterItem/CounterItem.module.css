@@ -1,0 +1,68 @@
+.counter__list__wrapper {
+    display: grid;
+    background-color: #a7b7be;
+    border: 3px solid #000;
+    width: 90%;
+    border-radius: 15px 0 15px;
+}
+
+.counter__item {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.current__counter {
+    margin: 20px 0 0 0;
+}
+
+.buttons__wrapper{
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    padding: 0px 30px;
+    margin: 10px;
+    column-gap: 7%;
+    height: 3em;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: #cfd8dc;
+    color: #425a65;
+    border: none;
+    font-weight: bold;
+}
+
+.btn__decrement {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.btn__increment {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.btn__reset {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.btn__delete {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.btn__delete:hover {
+    background-color:#ff1744
+}
+
+.btn__reset:hover {
+    background-color: #2abf77;
+}
+
+#value {
+    font-weight: 600;
+    font-size: 2em;
+}
